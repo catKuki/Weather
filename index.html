@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css' integrity='sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==' crossorigin='anonymous'/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrap" id="wrap">
+        <div class="weatherCard">
+        <input type="text" id="city" placeholder="Введи місто">
+        <button id="send">Відправити</button>
+
+        <div class="weatherItem">
+            <span>Країна:</span>
+            <div id="flag" class="flag"></div>
+        </div>
+
+        <div class="weatherItem">
+            <span>Температура:</span>
+            <span id="tempContainer"></span>
+        </div>
+
+        <div class="weatherItem">
+            <span>Вологість:</span>
+            <span id="humidityContainer"></span>
+        </div>
+
+
+        <div class="weatherItem">
+            <span>Тиск:</span>
+            <span id="pressureContainer"></span>
+        </div>
+
+         <div class="weatherItem">
+            <span>Швидкість вітру:</span>
+            <span id="windSpeedContainer"></span>
+        </div>
+          <div class="weatherItem">
+            <span>Напрям вітру:</span>
+            <span id="windDirectionContainer">
+                <i class="fa-solid fa-arrow-up"></i>
+            </span>
+        </div>
+
+        
+
+
+
+    </div>
+
+    </div>
+
+    
+    <script src="./main.js"></script>
+</body>
+</html>

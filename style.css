@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.weatherCard {
+    width: 300px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid #333;
+    background-color: #fff;
+}
+
+.weatherItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.weatherCard input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #333;
+    height: 50px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.weatherCard button {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.flag {
+    width: 30px;
+    height: 20px;
+    /* background-color: cadetblue; */
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
